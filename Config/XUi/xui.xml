@@ -1,0 +1,10 @@
+<config>
+	<append xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_workbench']">
+		<window name="windowToolsWorkbench"/>
+	</append>
+	
+	<append xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_chemistryStation']">
+		<window name="windowToolsChemistryStation"/>
+	</append>
+</config>
+	

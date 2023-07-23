@@ -1,0 +1,31 @@
+<config>
+	<append xpath="/lootcontainers/lootgroup[@name='groupCookingTools']">
+		<item name="toolCookingPotDouble"/>
+		<item name="toolCookingPotTriple"/>
+		<item name="toolCookingGrillDouble"/>
+		<item name="toolCookingGrillTriple"/>
+		<item name="toolCookingHotSauce"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupFoodRare']">
+		<item name="toolCookingHotSauce"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='workstationToolsScaled']">
+		<item name="toolAnvilDouble"/>
+		<item name="toolAnvilTriple"/>
+		<item name="toolBellowsDouble"/>
+		<item name="toolBellowsTriple"/>
+		<item name="toolForgeHighCarbonTooling"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupToolsT3']">
+		<item name="toolForgeHighCarbonTooling"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupChem01']">
+		<item name="toolBunsenBurner" loot_prob_template="veryLow"/>
+		<item name="resourceSulfur"/>
+	</append>
+</config>
+	
