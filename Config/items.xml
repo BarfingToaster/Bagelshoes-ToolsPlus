@@ -2,6 +2,8 @@
 	<set xpath="/items/item[@name='toolBellows']/effect_group/passive_effect[@name='CraftingSmeltTime']/@value">-0.5</set>
 	<set xpath="/items/item[@name='toolAnvil']/effect_group/passive_effect[@name='CraftingTime']/@value">-0.5</set>
 
+	<set xpath="/items/item[@name='unit_iron']/property[@name='Stacknumber']/@value">60000</set>
+
 	<append xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/effect_group[@name='meleeToolRepairT1ClawHammer']">
 		<passive_effect name="CraftingTime" operation="perc_subtract" value="0.5" tags="WB"/>
 	</append>
@@ -84,7 +86,7 @@
 			<property name="CustomIconTint" value="50FF50"/>
 			<property name="DescriptionKey" value="toolBellowsDoubleDesc"/>
 			<effect_group tiered="false">
-				<passive_effect name="CraftingSmeltTime" operation="perc_subtract" value="0.1667"/> <!-- this is essentially a multiplier -->
+				<passive_effect name="CraftingSmeltTime" operation="perc_subtract" value="0.1667"/>
 				<display_value name="dCraftingSmeltTime" value="0.33"/>
 			</effect_group>
 		</item>
@@ -94,7 +96,7 @@
 			<property name="CustomIconTint" value="FF5050"/>
 			<property name="DescriptionKey" value="toolBellowsTripleDesc"/>
 			<effect_group tiered="false">
-				<passive_effect name="CraftingSmeltTime" operation="perc_subtract" value="0.0833"/> <!-- this is essentially a multiplier -->
+				<passive_effect name="CraftingSmeltTime" operation="perc_subtract" value="0.0833"/>
 				<display_value name="dCraftingSmeltTime" value="0.25"/>
 			</effect_group>
 		</item>
@@ -151,6 +153,39 @@
 			<property name="ItemTypeIcon" value="chemistry"/>
 			<effect_group tiered="false">
 				<passive_effect name="CraftingTime" operation="perc_subtract" value="0.0833" tags="CS"/>
+			</effect_group>
+		</item>
+		
+		<item name="toolLimestone">
+			<property name="Extends" value="resourceCobblestones"/>
+			<property name="CustomIcon" value="resourceCobblestones"/>
+			<property name="CustomIconTint" value="788872"/>
+			<property name="DescriptionKey" value="toolLimestoneDesc"/>
+			<property name="ItemTypeIcon" value="cement"/>
+			<effect_group tiered="false">
+				<passive_effect name="CraftingTime" operation="perc_subtract" value="0.5" tags="CM"/>
+			</effect_group>
+		</item>
+		
+		<item name="toolPlasticizer">
+			<property name="Extends" value="resourceAcid"/>
+			<property name="CustomIcon" value="resourceAcid"/>
+			<property name="CustomIconTint" value="d11c16"/>
+			<property name="DescriptionKey" value="toolPlasticizerDesc"/>
+			<property name="ItemTypeIcon" value="cement"/>
+			<effect_group tiered="false">
+				<passive_effect name="CraftingTime" operation="perc_subtract" value="0.1667" tags="CM"/>
+			</effect_group>
+		</item>
+		
+		<item name="toolAccelerator">
+			<property name="Extends" value="resourceGlue"/>
+			<property name="CustomIcon" value="resourceGlue"/>
+			<property name="CustomIconTint" value="ecd473"/>
+			<property name="DescriptionKey" value="toolAcceleratorDesc"/>
+			<property name="ItemTypeIcon" value="cement"/>
+			<effect_group tiered="false">
+				<passive_effect name="CraftingTime" operation="perc_subtract" value="0.0833" tags="CM"/>
 			</effect_group>
 		</item>
 	</append>

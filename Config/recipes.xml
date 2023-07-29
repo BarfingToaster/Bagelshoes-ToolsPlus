@@ -5,6 +5,7 @@
 	<append xpath="/recipes/recipe[@craft_tool='toolForgeCrucible']/@tags">,CR</append>
 	<append xpath="/recipes/recipe[@craft_area='workbench']/@tags">,WB</append>
 	<append xpath="/recipes/recipe[@craft_area='chemistryStation']/@tags">,CS</append>
+	<append xpath="/recipes/recipe[@craft_area='cementMixer']/@tags">,CM</append>
 	
 	<setattribute xpath="recipes/recipe[contains(@name,'Shapes')]" name="tags">WB</setattribute>
 	

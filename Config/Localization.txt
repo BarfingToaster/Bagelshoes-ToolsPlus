@@ -28,13 +28,22 @@ toolAnvilTriple,items,Item,3rd Anvil
 toolAnvilTripleDesc,items,Item,"3rd anvil increases forge production speed."
 
 toolForgeHighCarbonTooling,items,Item,High Carbon Tooling
-toolForgeHighCarbonToolingDesc,items,Item,"Reduces forge crafting time by 2.5%"
+toolForgeHighCarbonToolingDesc,items,Item,"Tools for the forge made from high carbon steel. Reduces forge crafting time by 2.5%"
 
 toolBunsenBurner,items,Item,Bunsen Burner
-toolBunsenBurnerDesc,items,Item,"Speeds up chemistry station production speeds."
+toolBunsenBurnerDesc,items,Item,"A small table top torch. Speeds up chemistry station production speeds."
 
-resourceSulfur,items,Item,Sulfur
-resourceSulfurDesc,items,Item,"Speeds up chemistry station production speeds."
+resourceSulfur,items,Item,Jar of Sulfur
+resourceSulfurDesc,items,Item,"A resource commonly used in chemical formulas. Speeds up chemistry station production speeds."
+
+toolLimestone,items,Item,Limestone
+toolLimestoneDesc,items,Item,"A common ingredient in cement. Can be placed in a cement mixer to reduce crafting times."
+
+toolPlasticizer,items,Item,Plasticizer
+toolPlasticizerDesc,items,Item,"A compound used to make cement more malleable. Can be placed in a cement mixer to reduce crafting times."
+
+toolAccelerator,items,Item,Accelerator
+toolAcceleratorDesc,items,Item,"A compound used to make cement dry faster. Can be placed in a cement mixer to reduce crafting times."
 
 meleeToolRepairT1ClawHammerDesc,items,Tool,"The claw hammer is great for repairing and upgrading base walls and not bad as a weapon. Reduces workbench crafting time."
 meleeToolSalvageT1WrenchDesc,items,Tool,"Great for disassembling mechanical devices like cars, air conditioners and more. Reduces workbench crafting time."
